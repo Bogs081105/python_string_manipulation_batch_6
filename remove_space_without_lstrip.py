@@ -4,4 +4,5 @@ words = input("Please enter word/s with spaces in the beginning: ")
 #use while loop and startswith function
 while words.startswith(" "):
 #using index and slice, remove the white spaces
+    words = words[1:]
 #print the word without spaces
