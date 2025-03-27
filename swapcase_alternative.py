@@ -6,6 +6,12 @@ user_input = input("Please enter word/s with improper casing: ")
 for char in user_input:
 #use if statements to swap the cases
 #use isupper and islower to check the casing
-    if char.isupper
+#add the cases inside the empty variable
+    if char.isupper():
+        swapcase_alt += char.lower
+    elif char.islower():
+        swapcase_alt += char.upper
+    else:
+        swapcase_alt += char
 #print the result
 print(user_input)
