@@ -8,9 +8,9 @@ for char in user_input:
 #use isupper and islower to check the casing
 #add the cases inside the empty variable
     if char.isupper():
-        swapcase_alt += char.lower
+        swapcase_alt += char.lower()
     elif char.islower():
-        swapcase_alt += char.upper
+        swapcase_alt += char.upper()
     else:
         swapcase_alt += char
 #print the result
