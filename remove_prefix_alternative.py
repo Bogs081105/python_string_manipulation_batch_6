@@ -7,3 +7,4 @@ if string.startswith(prefix):
 #remove the prefix
     string.replace(prefix, "", 1)
 #print the result
+print(string)
