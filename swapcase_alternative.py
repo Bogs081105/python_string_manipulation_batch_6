@@ -14,4 +14,4 @@ for char in user_input:
     else:
         swapcase_alt += char
 #print the result
-print(user_input)
+print(swapcase_alt)
