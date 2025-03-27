@@ -6,4 +6,4 @@ while words.startswith(" "):
 #using index and slice, remove the white spaces
     words = words[1:]
 #print the word without spaces
-print(words)
+    print(words)
