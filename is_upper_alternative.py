@@ -7,3 +7,7 @@ string = input("Please enter a word: ")
 #check if all the values are true
 upper_alt = all(65 <= ord(char) <= 90 for char in string if char.isalpha())
 #print if it is upper
+if upper_alt:
+    print("The string is upper case")
+else:
+    print("The string is not upper case")
