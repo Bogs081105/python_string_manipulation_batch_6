@@ -7,3 +7,4 @@ if user_input.isupper():
 elif user_input.islower():
     user_input.upper
 #print the result
+print(user_input)
