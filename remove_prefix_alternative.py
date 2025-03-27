@@ -5,4 +5,5 @@ prefix = ("Pogi")
 #check if the word has a prefix that has been set
 if string.startswith(prefix):
 #remove the prefix
+    string.replace(prefix, "", 1)
 #print the result
