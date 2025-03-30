@@ -6,3 +6,4 @@ while user_input and user_input[-1] == " ":
 #slice the negative index to remove the spaces
     user_input = user_input[:-1]
 #print using repr() to show quotes
+print(repr(user_input))
