@@ -2,4 +2,5 @@
 user_input = input("Please input a string: ")
 spaces = int(input("Please input desired spaces you would like to put on the right: "))
 #use string concatenation to add empty spaces along with how many spaces they would desire
+result = " " * spaces + user_input
 #print result
