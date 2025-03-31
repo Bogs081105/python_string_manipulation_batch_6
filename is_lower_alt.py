@@ -7,3 +7,7 @@ for char in string:
 #check if all the values are true
     islower_alt = (97 <= ord(char) <= 122 for char in string if char.isalpha())
 #print if it is lower
+if islower_alt:
+    print("The string is in lower case")
+else:
+    print("The string is not in lower case")
