@@ -5,3 +5,7 @@ substring = input("Please enter the word to look for: ")
 position = main_string.find(substring)
 #check if the substring was found using if else statement
 #print if found or not found
+if position != -1:
+    print(f"{substring} was found at index {position}")
+else: 
+    print(f"{substring} was not found")
