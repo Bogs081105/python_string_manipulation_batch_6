@@ -5,7 +5,7 @@ for char in string:
 #convert characters to its unicode value using ord
 #using ASCII, check if the character is within the letters a - z in their unicode values
 #check if all the values are true
-    islower_alt = (97 <= ord(char) <= 122 for char in string if char.isalpha())
+    islower_alt = all(97 <= ord(char) <= 122 for char in string if char.isalpha())
 #print if it is lower
 if islower_alt:
     print("The string is in lower case")
