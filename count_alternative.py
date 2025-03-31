@@ -5,4 +5,7 @@ substring = input("Please input a word to count: ")
 count = 0
 #using for loop and if statements, iterate through the string \n
 #  and check for similar words using slice method
+for i in range(len(user_input) - len(substring) + 1):
+    if user_input[i:i + len(substring)] == substring:
+        count += 1
 #print the result
