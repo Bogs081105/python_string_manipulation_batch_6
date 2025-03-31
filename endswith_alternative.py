@@ -7,6 +7,6 @@ if len(suffix) > len(string):
     print(f"{suffix} is longer than {string}, {string} does not end with {suffix}")
 #check and slice the end of the string to check if it matches the suffix
 elif string[-len(suffix):] == suffix:
-    print(f"{string}ends with {suffix}")
+    print(f"{string} ends with {suffix}")
 else:
-    print(f"{string}does not end with{suffix}")
+    print(f"{string} does not end with {suffix}")
