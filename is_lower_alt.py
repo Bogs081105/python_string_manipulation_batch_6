@@ -1,4 +1,5 @@
 #ask the user to input a word/words
+string = input("Please enter a word: ")
 #check all the characters in the input
 #convert characters to its unicode value using ord
 #using ASCII, check if the character is within the letters a - z in their unicode values
