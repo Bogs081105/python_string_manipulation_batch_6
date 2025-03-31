@@ -5,9 +5,9 @@ string = input("Please enter a word: ")
 #convert characters to its unicode value using ord
 #using ASCII, check if the character is within the letters A - Z in their unicode values
 #check if all the values are true
-upper_alt = all(65 <= ord(char) <= 90 for char in string if char.isalpha())
+isupper_alt = all(65 <= ord(char) <= 90 for char in string if char.isalpha())
 #print if it is upper
-if upper_alt:
+if isupper_alt:
     print("The string is upper case")
 else:
     print("The string is not upper case")
