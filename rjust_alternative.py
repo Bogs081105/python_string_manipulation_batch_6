@@ -4,3 +4,4 @@ spaces = int(input("Please input desired spaces you would like to put on the rig
 #use string concatenation to add empty spaces along with how many spaces they would desire
 result = " " * spaces + user_input
 #print result
+print(f"The string right justified: {result}")
