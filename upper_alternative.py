@@ -8,4 +8,6 @@ for char in user_input:
 if "a" <= char <= "z":
 #convert using ASCII values (-32) as there are 32 items between lower caps \n 
 # and upper caps letters
+    upper_char = chr(ord(char) - 32)
+    upper_alt += upper_char
 #print the result
