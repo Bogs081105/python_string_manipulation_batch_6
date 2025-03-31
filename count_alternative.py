@@ -9,3 +9,4 @@ for i in range(len(user_input) - len(substring) + 1):
     if user_input[i:i + len(substring)] == substring:
         count += 1
 #print the result
+print(f"The substring occured {count} time(s) in {user_input}")
