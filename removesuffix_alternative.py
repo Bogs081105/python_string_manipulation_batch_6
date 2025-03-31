@@ -7,3 +7,4 @@ if string.endswith(suffix):
 #remove the suffix
     string = string.replace("", suffix)
 #print the result
+print(string)
