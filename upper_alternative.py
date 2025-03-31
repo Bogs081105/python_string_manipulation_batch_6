@@ -10,5 +10,7 @@ for char in user_input:
 # and upper caps letters
         upper_char = chr(ord(char) - 32)
         upper_alt += upper_char
+    else:
+        upper_alt += char
 #print the result
 print(f"The string in uppercase: {upper_alt}")
