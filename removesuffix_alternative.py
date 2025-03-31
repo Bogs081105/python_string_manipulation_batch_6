@@ -2,6 +2,7 @@
 string = ("Sir Danilo Pogi")
 #set a suffix
 suffix = ("Pogi")
-#check if the word has a suffix that has been set using endswith
+#check if the word has a suffix that has been set using 
+if string.endswith(suffix):
 #remove the suffix
 #print the result
